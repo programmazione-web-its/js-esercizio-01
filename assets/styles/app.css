@@ -1,6 +1,7 @@
 :root {
   --primary-color: #25c280;
   --secondary-color: #f6f6f6;
+  --accent-color: #093d27;
 }
 
 * {
@@ -70,8 +71,8 @@ header {
 
 #calculator button:hover,
 #calculator button:active {
-  background: #084f88;
-  border-color: #084f88;
+  background: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 #calc-actions button {
