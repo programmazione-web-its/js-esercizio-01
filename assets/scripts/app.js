@@ -2,10 +2,8 @@ const defaultResult = 0
 let currentResult = defaultResult
 
 function add() {
-  const enteredNumber = userInput.value
-  const calcDescription = `${currentResult} + ${enteredNumber}`
-  currentResult = currentResult + enteredNumber
-  outputResult(currentResult, calcDescription)
+  currentResult = currentResult + parseInt(userInput.value)
+  outputResult(currentResult, '')
 }
 
 addBtn.addEventListener('click', add)
